@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hotel Flash - Rooms</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="hotel.html">Rooms</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Our Rooms</h1>
+    <div class="room-list">
+      <div class="room">
+        <img src="images/img1.jpg" alt="Luxury Suite" width="300">
+        <h2>Luxury Suite</h2>
+        <p>Most Expensive Hotel</p>
+        <p><b>$100/night</b></p>
+      </div>
+      <div class="room">
+        <img src="images/img2.jpg" alt="Royal Suite" width="300">
+        <h2>Royal Suite</h2>
+        <p>Most Expensive Hotel</p>
+        <p><b>$100/night</b></p>
+      </div>
+      <div class="room">
+        <img src="images/image-3.jpg" alt="Deluxe Suite" width="300">
+        <h2>Deluxe Suite</h2>
+        <p>Discover New Adventure</p>
+        <p><b>$100/night</b></p>
+      </div>
+      <div class="room">
+        <img src="images/img4.jpg" alt="Elegant Room" width="300">
+        <h2>Elegant Room</h2>
+        <p>Classic Comfort</p>
+        <p><b>$100/night</b></p>
+      </div>
+      <div class="room">
+        <img src="images/img5.jpg" alt="Suite Interior" width="300">
+        <h2>Suite Interior</h2>
+        <p>Modern Touch</p>
+        <p><b>$100/night</b></p>
+      </div>
+    </div>
+
+    <h2>Book Your Room</h2>
+    <form action="book.php" method="post" style="max-width:400px; margin:auto;">
+      <input type="text" name="name" placeholder="Your Name" required><br><br>
+      <input type="email" name="email" placeholder="Your Email" required><br><br>
+      <label>Check-in:</label><input type="date" name="checkin" required><br><br>
+      <label>Check-out:</label><input type="date" name="checkout" required><br><br>
+      <button type="submit">Book Now</button>
+    </form>
+  </main>
+
+  <footer style="text-align:center;">
+    <p>&copy; 2025 Hotel Flash</p>
+  </footer>
+</body>
+</html>
