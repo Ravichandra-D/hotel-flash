@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+  background: #f3f3f3;
+}
+header nav ul {
+  list-style: none;
+  background: #111;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+header nav ul li {
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+}
+header nav ul li a.active, header nav ul li a:hover {
+  background: #f90;
+  color: #111;
+}
+.hero {
+  background-size: cover;
+  color: #fff;
+  padding: 80px 0;
+}
+.room-list, .blog-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.room, .blog-post {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ccc;
+  max-width: 320px;
+  text-align: center;
+}
+form input, form textarea, form button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+form button {
+  background: #f90;
+  color: #111;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+footer {
+  background: #111;
+  color: #fff;
+  padding: 14px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
